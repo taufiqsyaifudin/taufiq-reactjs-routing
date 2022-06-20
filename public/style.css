@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    font-family: "Crimson Pro", serif;
+    font-family: "Roboto Slab", serif;
+  }
+  #img {
+    height: 600px;
+    width: 100%;
+  }
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  #heading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 40px;
+  }
+  #heading3 {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 24px;
+  }
+  #button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    outline: none;
+    box-shadow: 0px 2px 2px black;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  section {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+  }
+  header {
+    text-align: center;
+  }
+  #services {
+    padding: 20px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+  #para1 {
+    font-style: italic;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .new {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  #article1 {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  #article2 {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  #article3 {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+  }
+  
+  input[type="submit"] {
+    /* background-color: #ff9900;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer; */
+    width: 100%;
+    /* transform: translateX(-50%); */
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    outline: none;
+    box-shadow: 0px 2px 2px black;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: black;
+  }
+  
+  .contact {
+    width: 500px;
+    margin: 60px auto;
+    margin-bottom: 100px;
+  }
+  
+  .contact h1 {
+    text-align: center;
+  }
+  
+  .contact label {
+    text-align: left;
+  }
+  
+  .footer {
+    margin-top: 10%;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer p {
+    line-height: 50px;
+  }
+  
